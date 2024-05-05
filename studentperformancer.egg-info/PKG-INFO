@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: studentperformancer
-Version: 0.0.1
+Version: 0.0.2
 Summary: Students performance for Moodle LMS
-Author: YML kumara
+Author: YML Kumara
 Author-email: <lakshakumara@gmail.com>
 License: GPLv3
 Keywords: python,moodle,analytics

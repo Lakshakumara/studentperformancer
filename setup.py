@@ -15,8 +15,8 @@ DESCRIPTION = 'Students performance for Moodle LMS'
 # Setting up
 setup(
     name="studentperformancer",
-    version=VERSION,
-    author="YML kumara",
+    version="0.0.2",
+    author="YML Kumara",
     author_email="<lakshakumara@gmail.com>",
     description=DESCRIPTION,
     
@@ -25,9 +25,15 @@ setup(
 
     packages=find_packages(),
     package_data={
-        'performancer': ['VERSION']
+        'studentperformancer': ['VERSION']
     },
-    install_requires=['numpy'],
+    install_requires=[
+        'matplotlib>=1.5.0',
+        'numpy>=1.11.0',
+        'scikit-learn>=0.17.0',
+        'scipy>=0.17.0',
+        'tensorflow>=1.0.0',
+    ],
     keywords=['python', 'moodle', 'analytics'],
     classifiers=[
         "Development Status :: 1 - Alpa",
@@ -38,5 +44,6 @@ setup(
         "Operating System :: Unix",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
-    ]
-)
+    ],
+    )
+    # token pypi-AgEIcHlwaS5vcmcCJGY5Yzg3MzI1LWI4ZjYtNGUwYy04MzIzLTQxZDdlZTUyZWUyZgACKlszLCIyZTA0NjYyMC0xNzJkLTQ5ODEtYjllYS1jMjJkYjY5OGJiNTciXQAABiAVGI2lE8m8J8UWFClv4VoRHXLmlCcT-g_y5mSAdVxmQg
