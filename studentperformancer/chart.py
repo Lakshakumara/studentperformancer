@@ -3,7 +3,7 @@
 import os
 
 import numpy as np
-from sklearn.learning_curve import learning_curve
+from sklearn.model_selection import learning_curve
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt

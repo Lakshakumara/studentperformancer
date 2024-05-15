@@ -5,9 +5,9 @@ import logging
 import warnings
 import time
 
+import joblib
 import numpy as np
 from sklearn.utils import shuffle
-from sklearn.externals import joblib
 
 class Classifier(object):
     """Abstract estimator class"""
